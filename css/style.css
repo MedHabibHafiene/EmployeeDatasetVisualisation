@@ -1,0 +1,49 @@
+body {
+  background-color: #dbe6ffb6;
+}
+
+/* .row {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.box {
+  width: calc(33.33% - 10px);
+  height: 400px;
+  margin: 5px;
+  border-radius: 0.8%;
+}
+.title {
+  margin-top: 8px;
+  margin-bottom: -4px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+  svg{
+    width: 200px;
+    height: 200px;
+  }
+  .dc-legend-item{
+    width: 10px;
+    height: 10px;
+  }
+}
